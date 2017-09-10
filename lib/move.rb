@@ -14,5 +14,5 @@ end
 
 def move(board, index, player = 'X')
   board[index] = player
-  return board
+  display_board(board)
 end
